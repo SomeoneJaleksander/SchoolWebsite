@@ -13,6 +13,8 @@ header {
 #meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%;}
 #fullBox {margin-left: 1%; width: 95%; height: 70%; top: 10%;}
 #tableParent {position: absolute; width: 100%; height: 100%;}
+#conlangBox {margin-left: 1%; width: 95%; height: 34%; top: 10%;}
+#watchBox {margin-left: 1%; width: 95%; height: 34.5%; top: 45.5%;}
 
 .navBarText {
   position: absolute;
@@ -113,6 +115,31 @@ body {
     margin-right: 2%;
   }
 
+  .projectTile {
+    font-family: sans-serif;
+    background-color: #cccccc;
+    border: 0px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.7;
+  }
+
+  .paddedProjectTile {
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+
   img {
     padding: 0;
     display: block;
@@ -157,6 +184,7 @@ footer {
   width: 100%;
   background-color: black;
   color: lightgray;
+  text-align: center;
   font-family: sans-serif;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=80);
