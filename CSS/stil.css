@@ -1,48 +1,59 @@
 header {
     height: 0px;
 }
-  .navBarText {
-    position: absolute;
-    margin-top: 4%;
-    height: 5%;
-    width: 100%;
-  }
 
-  .navBarWrapper {
-    width: 100%;
-    height: 8%;
+#homeButton {margin-left: 0%;}
+#aboutMeButton {margin-left: 23%;}
+#logoButton {margin-left: 46%; width: 8%;}
+#myScheduleButton {margin-left: 54%;}
+#myProjectsButton {margin-left: 77%;}
+#welcomeBox {margin-left: 1%; width: 46%; height: 23%; top: 10%;}
+#contentBox1 {margin-left: 1%; width: 46%; height: 22%; top: 34.5%;}
+#contentBox2 {margin-left: 1%; width: 46%; height: 22%; top: 58%;}
+#meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%;}
+
+.navBarText {
+  position: absolute;
+  margin-top: 4%;
+  height: 5%;
+  width: 100%;
+}
+
+.navBarWrapper {
+  width: 100%;
+  height: 8%;
+  top: 0px;
+  margin-left: 0px;
+  position: fixed;
+}
+
+.navBarLogo {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 9%;
+  left: 10%;
+}
+
+.navBarButton {
+    width: 23%;
+    height: 100%;
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    vertical-align: sub;
+    font-family: sans-serif;
     top: 0px;
-    margin-left: 0px;
-    position: fixed;
-  }
-  
-  .navBarLogo {
+    margin-left: 0%;
     position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 9%;
-    left: 10%;
-  }
-
-  .navBarButton {
-      width: 23%;
-      height: 100%;
-      background-color: black;
-      color: lightgray;
-      text-align: center;
-      vertical-align: sub;
-      font-family: sans-serif;
-      top: 0px;
-      margin-left: 0%;
-      position: absolute;
-      z-index: 1;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      filter: alpha(opacity=80);
-      -moz-opacity: 0.80;
-      -khtml-opacity: 0.8;
-      opacity: 1;
-      transition: opacity 100ms ease-out 10ms;
-  }
+    z-index: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 1;
+    transition: opacity 100ms ease-out 10ms;
+}
 
 .navBarButton:hover {
   opacity: 0.7;
