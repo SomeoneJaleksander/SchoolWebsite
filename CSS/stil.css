@@ -11,6 +11,7 @@ header {
 #contentBox1 {margin-left: 1%; width: 46%; height: 22%; top: 34.5%;}
 #contentBox2 {margin-left: 1%; width: 46%; height: 22%; top: 58%;}
 #meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%;}
+#fullBox {margin-left: 1%; width: 95%; height: 84%; top: 10%;}
 
 .navBarText {
   position: absolute;
