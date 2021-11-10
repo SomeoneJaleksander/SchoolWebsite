@@ -19,6 +19,9 @@ header {
 #halfProjectTile1b {left: 50%; width: 50%; height: 100%; position: absolute;}
 #halfProjectTile2a {width: 50%; height: 100%; position: absolute;}
 #halfProjectTile2b {left: 50%; width: 50%; height: 100%; position: absolute;}
+#pictureFrame1a {}
+#pictureFrame2a {}
+#pictureFrame2b {}
 
 .navBarText {
   position: absolute;
