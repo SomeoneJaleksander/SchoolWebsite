@@ -1,5 +1,5 @@
 header {
-    height: 0px;
+  height: 0px;
 }
 
 #homeButton {margin-left: 0%;}
@@ -11,7 +11,8 @@ header {
 #contentBox1 {margin-left: 1%; width: 46%; height: 22%; top: 34.5%;}
 #contentBox2 {margin-left: 1%; width: 46%; height: 22%; top: 58%;}
 #meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%;}
-#fullBox {margin-left: 1%; width: 95%; height: 84%; top: 10%;}
+#fullBox {margin-left: 1%; width: 95%; height: 70%; top: 10%;}
+#tableParent {position: absolute; width: 100%; height: 100%;}
 
 .navBarText {
   position: absolute;
@@ -37,22 +38,22 @@ header {
 }
 
 .navBarButton {
-    width: 23%;
-    height: 100%;
-    background-color: black;
-    color: lightgray;
-    text-align: center;
-    vertical-align: sub;
-    font-family: sans-serif;
-    top: 0px;
-    position: absolute;
-    z-index: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 1;
-    transition: opacity 100ms ease-out 10ms;
+  width: 23%;
+  height: 100%;
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+  vertical-align: sub;
+  font-family: sans-serif;
+  top: 0px;
+  position: absolute;
+  z-index: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 1;
+  transition: opacity 100ms ease-out 10ms;
 }
 
 .navBarButton:hover {
@@ -136,21 +137,33 @@ body {
   bottom: 30%;
 }
 
+.tableWrapper {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin-top: 3%;
+}
+
+table, thead, tbody, th, td {
+  border: 1px solid black;
+  word-break: keep-all;
+}
+
 footer {
-    bottom: 0px;
-    margin-left: 0px;
-    position: fixed;
-    height: 4%;
-    width: 100%;
-    background-color: black;
-    color: lightgray;
-    font-family: sans-serif;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 0.5;
-    transition: opacity 100ms ease-out 10ms;
+  bottom: 0px;
+  margin-left: 0px;
+  position: fixed;
+  height: 4%;
+  width: 100%;
+  background-color: black;
+  color: lightgray;
+  font-family: sans-serif;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.5;
+  transition: opacity 100ms ease-out 10ms;
 }
 
 footer:hover {
