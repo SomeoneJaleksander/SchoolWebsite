@@ -10,7 +10,7 @@ header {
 #welcomeBox {margin-left: 1%; width: 46%; height: 23%; top: 10%;}
 #contentBox1 {margin-left: 1%; width: 46%; height: 22%; top: 34.5%;}
 #contentBox2 {margin-left: 1%; width: 46%; height: 22%; top: 58%;}
-#meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%;}
+#meBox {margin-left: 56%; width: 40%; height: 70%; top: 10%; opacity: 1;}
 #fullBox {margin-left: 1%; width: 95%; height: 70%; top: 10%;}
 #tableParent {position: absolute; width: 100%; height: 100%;}
 #conlangBox {margin-left: 1%; width: 95%; height: 34%; top: 10%;}
@@ -19,9 +19,11 @@ header {
 #halfProjectTile1b {left: 50%; width: 50%; height: 100%; position: absolute;}
 #halfProjectTile2a {width: 50%; height: 100%; position: absolute;}
 #halfProjectTile2b {left: 50%; width: 50%; height: 100%; position: absolute;}
-#pictureFrame1a {}
-#pictureFrame2a {}
-#pictureFrame2b {}
+#pictureFrame1a {width: 100%; height: 81%; position: absolute;}
+#pictureFrame2a {width: 50%; height: 81%; position: absolute;}
+#pictureFrame2b {left: 50%; width: 50%; height: 81%; position: absolute;}
+#listWrapper1 {left: 15%; top: 80%;}
+#listWrapper2 {left: 33%; top: 80%;}
 
 .navBarText {
   position: absolute;
@@ -130,11 +132,6 @@ body {
     position: absolute;
     left: 1%;
     right: 1%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 0.7;
   }
 
   .paddedProjectTile {
@@ -185,10 +182,20 @@ body {
   margin-top: 3%;
 }
 
+.listWrapper {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
 table, thead, tbody, th, td {
   border: 1px solid black;
   word-break: keep-all;
 }
+
+ul {list-style-type: none;}
+
+
 
 footer {
   bottom: 0px;
