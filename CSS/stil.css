@@ -119,6 +119,12 @@ body {
     position: fixed;
 }
 
+.stuffToKnowButton {
+  position: absolute;
+  left: 80%;
+  bottom: 30%;
+}
+
 footer {
     bottom: 0px;
     margin-left: 0px;
